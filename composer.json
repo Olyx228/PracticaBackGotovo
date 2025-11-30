@@ -1,0 +1,30 @@
+{
+  "name": "weathered-cr/pop-it-mvc",
+  "description": "MVC framework for educational portal",
+  "type": "project",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Weathered-cr",
+      "email": "mrfocs2000@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.4 | ^8.0 | ^8.2",
+    "illuminate/database": "^10.0",
+    "illuminate/events": "^10.0",
+    "nikic/fast-route": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Src\\": "core/Src/",
+      "Controller\\": "app/Controller/",
+      "Model\\": "app/Model/",
+      "Validation\\": "app/Validation/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0"
+  }
+}
