@@ -1,12 +1,12 @@
 {
-  "name": "weathered-cr/pop-it-mvc",
+  "name": "olyx228/pop-it-mvc",
   "description": "MVC framework for educational portal",
   "type": "project",
   "license": "proprietary",
   "authors": [
     {
-      "name": "Weathered-cr",
-      "email": "mrfocs2000@gmail.com"
+      "name": "Olyx228",
+      "email": "semennefiodov@yandex.ru"
     }
   ],
   "minimum-stability": "dev",

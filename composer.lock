@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eeb645aa3190f3aa0a75bd2b0321cc06",
+    "content-hash": "49efd8d6524b86dcc05a0ab0e86782d2",
     "packages": [
         {
             "name": "brick/math",
@@ -1720,12 +1720,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "24fb8443fca58946b9dcfcf96d4193175be59ef4"
+                "reference": "e4810261db718545ed1a64d021dc9ecba3dbd68d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/24fb8443fca58946b9dcfcf96d4193175be59ef4",
-                "reference": "24fb8443fca58946b9dcfcf96d4193175be59ef4",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/e4810261db718545ed1a64d021dc9ecba3dbd68d",
+                "reference": "e4810261db718545ed1a64d021dc9ecba3dbd68d",
                 "shasum": ""
             },
             "require": {
@@ -1771,7 +1771,7 @@
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
                 "source": "https://github.com/nikic/PHP-Parser/tree/master"
             },
-            "time": "2025-11-29T15:12:44+00:00"
+            "time": "2025-11-30T16:41:08+00:00"
         },
         {
             "name": "phar-io/manifest",
@@ -2281,12 +2281,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "5bbaa6fec73ca99e5e86a44728cc8f517ffda878"
+                "reference": "76b51fd13577db4dd87bfd132e3dcd20f400bb15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/5bbaa6fec73ca99e5e86a44728cc8f517ffda878",
-                "reference": "5bbaa6fec73ca99e5e86a44728cc8f517ffda878",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/76b51fd13577db4dd87bfd132e3dcd20f400bb15",
+                "reference": "76b51fd13577db4dd87bfd132e3dcd20f400bb15",
                 "shasum": ""
             },
             "require": {
@@ -2382,7 +2382,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-11-21T10:46:22+00:00"
+            "time": "2025-12-02T07:45:23+00:00"
         },
         {
             "name": "sebastian/cli-parser",

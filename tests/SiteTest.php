@@ -5,12 +5,10 @@ class SiteTest extends TestCase
 {
     public function testSignup(string $httpMethod, array $userData, string $message): void
     {
-        //Выбираем занятый логин из базы данных
         if ($userData['login'] === 'login is busy') {
             $userData['login'] = User::get()->first()->login;
         }
 
-        // Создаем заглушку для класса Request.
         $request = $this->createMock(\Src\Request::class);
         // Переопределяем метод all() и свойство method
         $request->expects($this->any())
@@ -18,22 +16,17 @@ class SiteTest extends TestCase
             ->willReturn($userData);
         $request->method = $httpMethod;
 
-        //Сохраняем результат работы метода в переменную
         $result = (new \Controller\Site())->signup($request);
 
         if (!empty($result)) {
-            //Проверяем варианты с ошибками валидации
             $message = '/' . preg_quote($message, '/') . '/';
             $this->expectOutputRegex($message);
             return;
         }
 
-        //Проверяем добавился ли пользователь в базу данных
         $this->assertTrue((bool)User::where('login', $userData['login'])->count());
-        //Удаляем созданного пользователя из базы данных
         User::where('login', $userData['login'])->delete();
 
-        //Проверяем редирект при успешной регистрации
         $this->assertContains($message, xdebug_get_headers());
     }
     public function additionProvider(): array

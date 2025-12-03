@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
-        'name' => 'weathered-cr/pop-it-mvc',
+        'name' => 'olyx228/pop-it-mvc',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'aa8a18d77ba345fbe6a2f0733dcca6030baa5f69',
+        'reference' => 'e7793645797f66906d674d9cc71c72d22ba21ae0',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -159,13 +159,22 @@
         'nikic/php-parser' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '24fb8443fca58946b9dcfcf96d4193175be59ef4',
+            'reference' => 'e4810261db718545ed1a64d021dc9ecba3dbd68d',
             'type' => 'library',
             'install_path' => __DIR__ . '/../nikic/php-parser',
             'aliases' => array(
                 0 => '5.x-dev',
             ),
             'dev_requirement' => true,
+        ),
+        'olyx228/pop-it-mvc' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'e7793645797f66906d674d9cc71c72d22ba21ae0',
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'phar-io/manifest' => array(
             'pretty_version' => 'dev-master',
@@ -235,7 +244,7 @@
         'phpunit/phpunit' => array(
             'pretty_version' => '10.5.x-dev',
             'version' => '10.5.9999999.9999999-dev',
-            'reference' => '5bbaa6fec73ca99e5e86a44728cc8f517ffda878',
+            'reference' => '76b51fd13577db4dd87bfd132e3dcd20f400bb15',
             'type' => 'library',
             'install_path' => __DIR__ . '/../phpunit/phpunit',
             'aliases' => array(),
@@ -500,15 +509,6 @@
             'reference' => 'b1d923f88091c6bf09699efcd7c8a1b1bfd7351d',
             'type' => 'library',
             'install_path' => __DIR__ . '/../voku/portable-ascii',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
-        'weathered-cr/pop-it-mvc' => array(
-            'pretty_version' => 'dev-main',
-            'version' => 'dev-main',
-            'reference' => 'aa8a18d77ba345fbe6a2f0733dcca6030baa5f69',
-            'type' => 'project',
-            'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
